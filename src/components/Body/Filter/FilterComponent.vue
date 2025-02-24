@@ -12,50 +12,50 @@ import ProviderIcon from './Icons/ProviderIcon.vue'
     class="flex mx-[20px] md:mx-[50px] 2xl:mx-[240px] gap-1 md:gap-3 justify-between md:overflow-y-auto text-white"
   >
     <span
-      class="py-3 px-[10px] md:px-[20px] border rounded-[10px] min-w-[120px] md:min-w-[195px] border-[#90A2BD] justify-center hidden md:flex"
+      class="py-3 px-[8px] md:px-[20px] border rounded-[10px] min-w-[110px] md:min-w-[195px] border-[#90A2BD] justify-center hidden md:flex"
     >
       <diamond-icon class="mr-3" />
       <span>Diamond mine</span>
     </span>
     <span
-      class="py-3 px-[10px] md:px-[20px] border rounded-[10px] min-w-[120px] md:min-w-[195px] border-[#90A2BD] justify-center hidden md:flex"
+      class="py-3 px-[8px] md:px-[20px] border rounded-[10px] min-w-[110px] md:min-w-[195px] border-[#90A2BD] justify-center hidden md:flex"
     >
       <vip-icon class="mr-3" />
       <span>VIP</span>
     </span>
     <span
-      class="py-3 px-[10px] md:px-[20px] border rounded-[10px] min-w-[120px] md:min-w-[195px] border-[#90A2BD] justify-center hidden md:flex"
+      class="py-3 px-[8px] md:px-[20px] border rounded-[10px] min-w-[110px] md:min-w-[195px] border-[#90A2BD] justify-center hidden md:flex"
     >
       <promotion-icon class="mr-3" />
       <span>Promotion</span>
     </span>
     <span
-      class="py-3 px-[10px] md:px-[20px] border rounded-[10px] min-w-[120px] md:min-w-[195px] border-[#90A2BD] justify-center hidden md:flex"
+      class="py-3 px-[8px] md:px-[20px] border rounded-[10px] min-w-[110px] md:min-w-[195px] border-[#90A2BD] justify-center hidden md:flex"
     >
       <hot-match-icon class="mr-3" />
       <span>Hot Match</span>
     </span>
     <span
-      class="py-3 px-[10px] md:px-[20px] border rounded-[10px] min-w-[120px] md:min-w-[195px] border-[#90A2BD] justify-center hidden md:flex"
+      class="py-3 px-[8px] md:px-[20px] border rounded-[10px] min-w-[110px] md:min-w-[195px] border-[#90A2BD] justify-center hidden md:flex"
     >
       <P2P-icon class="mr-3" />
       <span>P2P Transaction</span>
     </span>
     <span
-      class="py-3 px-[10px] md:px-[20px] border rounded-[10px] min-w-[120px] md:min-w-[195px] border-transparent justify-center bg-[#12294A] flex md:hidden items-center"
+      class="py-3 px-[8px] md:px-[20px] border rounded-[10px] min-w-[110px] md:min-w-[195px] border-transparent justify-center bg-[#12294A] flex md:hidden items-center"
     >
       <span class="material-symbols-outlined mr-3"> search </span>
 
       <span>Search</span>
     </span>
     <span
-      class="flex py-3 px-[10px] md:px-[20px] border rounded-[10px] min-w-[120px] md:min-w-[195px] border-transparent justify-center bg-[#12294A]"
+      class="flex py-3 px-[8px] md:px-[20px] border rounded-[10px] min-w-[110px] md:min-w-[195px] border-transparent justify-center bg-[#12294A]"
     >
       <game-icon class="mr-3" />
       <span>Games</span>
     </span>
     <span
-      class="flex py-3 px-[10px] md:px-[20px] border rounded-[10px] min-w-[120px] md:min-w-[195px] border-transparent justify-center bg-[#12294A]"
+      class="flex py-3 px-[8px] md:px-[20px] border rounded-[10px] min-w-[110px] md:min-w-[195px] border-transparent justify-center bg-[#12294A]"
     >
       <provider-icon class="mr-3" />
       <span>Providers</span>
