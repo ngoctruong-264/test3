@@ -76,7 +76,7 @@ import CustomAccordion from '../custom/CustomAccordion.vue'
     </span>
     <span class="w-full md:w-[160px]">
       <div class="text-white bg-[#1A3157] px-[11px] rounded-[10px] hidden md:flex">
-        <apple-icon class="w-[42px]" />
+        <apple-icon class="min-w-[42px]" />
         Bluechip App for Mac OS
       </div>
       <div class="flex justify-between mt-3 gap-5 md:gap-0">

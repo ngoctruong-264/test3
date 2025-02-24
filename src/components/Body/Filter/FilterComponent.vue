@@ -9,7 +9,7 @@ import ProviderIcon from './Icons/ProviderIcon.vue'
 </script>
 <template>
   <div
-    class="flex mx-[20px] md:mx-[50px] 2xl:mx-[240px] gap-1 md:gap-5 justify-between md:overflow-y-auto mt-[80px] text-white"
+    class="flex mx-[20px] md:mx-[50px] 2xl:mx-[240px] gap-1 md:gap-3 justify-between md:overflow-y-auto text-white"
   >
     <span
       class="py-3 px-[10px] md:px-[20px] border rounded-[10px] min-w-[120px] md:min-w-[195px] border-[#90A2BD] justify-center hidden md:flex"

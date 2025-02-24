@@ -1,7 +1,7 @@
 <template>
   <div class="rounded-[10px]">
     <div class="bg-[#12294A] px-[30px] py-[15px]">
-      <evolution-icon />
+      <component :is="props.icon" />
     </div>
     <div class="bg-[#1A3157] text-white text-center underline underline-offset-2 py-[10px]">
       <div>{{ props.title }}</div>
@@ -10,7 +10,6 @@
   </div>
 </template>
 <script setup>
-import EvolutionIcon from './Icon/EvolutionIcon.vue'
 const props = defineProps({
   amount: {
     type: String,
@@ -19,6 +18,9 @@ const props = defineProps({
   title: {
     type: String,
     required: true,
+  },
+  icon: {
+    type: Object,
   },
 })
 </script>

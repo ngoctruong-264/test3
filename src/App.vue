@@ -10,7 +10,7 @@ import ProviderPart from './components/Body/Providers/ProviderPart.vue'
 <template>
   <header-component />
 
-  <div class="mt-[67px]">
+  <div class="pt-[67px] overflow-hidden">
     <banner-component />
     <filter-component />
     <game-part />

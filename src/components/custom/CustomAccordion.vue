@@ -1,11 +1,11 @@
 <template>
-  <div :id="title" data-accordion="collapse" class="mb-2">
-    <h2 :id="`${id}-heading-1`" class="w-full">
+  <div :id="props.id" class="mb-2">
+    <h2 :id="`${props.id}-heading-1`" class="w-full">
       <button
         type="button"
         class="flex items-center justify-between w-full p-2 font-medium rtl:text-right text-white bg-[#1A3157] rounded-[10px] focus:ring-4 dark:border-gray-700 dark:text-gray-400"
-        :data-accordion-target="`#${id}-heading-1`"
-        :aria-controls="`#${id}-body-1`"
+        :data-accordion-target="`#${props.id}-body-1`"
+        :aria-controls="`${props.id}-body-1`"
       >
         <span>{{ props.title }}</span>
         <svg
@@ -26,7 +26,7 @@
         </svg>
       </button>
     </h2>
-    <div :id="`${id}-body-1`" class="hidden" :aria-labelledby="`${id}-heading-1`">
+    <div :id="`${props.id}-body-1`" class="hidden" :aria-labelledby="`${props.id}-heading-1`">
       <div class="p-4">
         <ul>
           <li v-for="(item, idx) in props.section" :key="idx" class="p-1">

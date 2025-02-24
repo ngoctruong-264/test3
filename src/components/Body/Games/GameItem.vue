@@ -9,12 +9,18 @@ const props = defineProps({
     type: String,
     required: true,
   },
+  srcImg: {
+    type: String,
+    required: true,
+  },
 })
 </script>
 <template>
   <span class="md:min-w-[156px] min-w-[120px] relative">
-    <img src="/game1.png" alt="" class="rounded-[10px]" />
-    <span class="absolute bottom-0 right-[50%] text-white font-medium">{{ props.type }}</span>
+    <img :src="props.srcImg" alt="" class="rounded-[10px]" />
+    <span class="absolute bottom-0 text-white font-medium w-full text-center text-[8px]">{{
+      props.type
+    }}</span>
     <hot-tag class="absolute top-[15px]" v-if="props.tag === 'hot'" />
     <new-tag class="absolute top-[15px]" v-if="props.tag === 'new'" />
   </span>
