@@ -13,19 +13,42 @@ import CustomAccordion from '../custom/CustomAccordion.vue'
     class="mh-[400px] bg-[#12294A] flex justify-between px-[20px] lg:px-[50px] xl:px-[120px] py-[30px] md:pt-[50px] text-[#90A2BD] leading-[21px] flex-col md:flex-row mt-[40px]"
   >
     <div class="md:hidden">
-      <custom-accordion id="games" title="Games" :section="['Game 1', 'Game 2', 'Game 3']" />
-      <custom-accordion
-        id="about"
-        title="About"
-        :section="['Game 1', 'Game 2', 'Game 3']"
-        class="mt-2"
-      />
-      <custom-accordion
-        id="legal-information"
-        title="Legal Information"
-        :section="['Game 1', 'Game 2', 'Game 3']"
-        class="mt-2"
-      />
+      <div
+        id="accordion-collapse"
+        class="mb-2"
+        data-accordion="collapse"
+        data-active-classes="bg-[#1A3157] text-white"
+        data-inactive-classes="bg-[#1A3157] text-white"
+      >
+        <custom-accordion id="games" title="Games" :section="['Game 1', 'Game 2', 'Game 3']" />
+        <custom-accordion
+          id="about"
+          title="About"
+          :section="[
+            'About Us',
+            'Promotions',
+            'VIP',
+            'Help Center',
+            'Awards & Certificates',
+            'App',
+          ]"
+          class="mt-2"
+        />
+        <custom-accordion
+          id="legal-information"
+          title="Legal Information"
+          :section="[
+            'Legal Information',
+            'General Terms & Conditions',
+            'Responsible Gaming Policy',
+            'Sports Betting Rules',
+            'Privacy and Cookies Policy',
+            'Payment Methods',
+            'Limits',
+          ]"
+          class="mt-2"
+        />
+      </div>
     </div>
     <span class="flex flex-col-reverse md:block">
       <div

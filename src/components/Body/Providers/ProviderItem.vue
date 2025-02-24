@@ -12,7 +12,7 @@
 <script setup>
 const props = defineProps({
   amount: {
-    type: String,
+    type: Number,
     required: true,
   },
   title: {
